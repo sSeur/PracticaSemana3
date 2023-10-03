@@ -1,0 +1,66 @@
+/*
+ 
+    Created on : 19 sept 2023, 19:25:58
+    Author     : Seur
+
+*/
+@font-face {
+    font-family: 'AndikaRegular';
+    src: url(../fonts/Andika-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+#barralateral{
+    position: absolute;
+    height: 100%;
+    width: 11em;
+    top: 0em;
+    left: 0;
+    background-color: #627d62;
+    padding: 1em 0px 0px 0px;
+    color: #0f0f0f;
+}
+#mapa{
+    position: absolute;
+    height: 54em;
+    top: 5.5em;
+    left: 11.52em;
+    width: 27em;
+    padding: 10px;
+    color: #ffffff;
+
+}
+#piepagina{
+    position: absolute;
+    height: 7%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #21252b;
+    padding: 10px;
+    text-align: center;
+}
+#contenido{
+    position: static;
+    text-align: justify-all;
+    color: #ffffff;
+    font-family: AndikaRegular;
+    font-size: 19px;
+
+}
+.lista {
+    font-style: bold;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: Fairydustregular;
+}
+#lista-text{
+    font-size: 14px; 
+    font-family: AndikaRegular;
+    color: #ffffff;
+}
+#h2{
+    color: white;
+}

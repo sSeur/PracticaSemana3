@@ -1,0 +1,105 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 sept 2023, 21:37:43
+    Author     : Seur
+*/
+
+@font-face {
+    font-family: 'fairydustbregular';
+    src: url(../fonts/FairydustRegular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.h1{
+    font-size: 48;
+    color: #cbc18f;
+    background-color: #522e2c;
+    padding: 0.25em 0.50em;
+
+}
+
+
+body{
+    font-family: sans-serif;
+    paddin: 45px 20px 0px;
+}
+.header{
+    background-color: #292929;
+    height: 5em;
+    top: 0;
+    left: 11em;
+    width: 106em;
+    position: absolute;
+
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 990px;
+    margin: 0 auto;
+    
+}
+.nav-link{
+    color:#cbc5c3;
+    text-decoration: none;
+    border-right: 51px;
+    
+
+}
+.logo{
+    color:    #cbc5c3;
+    font-size: 50px;
+    font-family: fairydustbregular;
+    padding-left: 8px;
+    margin-left: 2px;
+    top: 8px;
+    line-height: 90px;
+}
+
+.nav-menu{
+    width: 10%;
+    margin-bottom: 40px;
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-right: 81px;
+    line-height: 50px;
+    text-align: center;
+    
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 0px;
+    height: max-content;
+    
+}
+
+.nav-menu-link{
+    left: 10px;
+    border-radius: 0px;
+    padding: 10px 51px 10px 10px;
+
+}
+
+.nav-menu-link:hover{
+    background-color: #cbc18f;
+    color:#0f0f0f;
+    transition: 0.7s;
+    width: 250px;
+
+}
+.golarionmap{
+    padding-left: 2em;
+ }
